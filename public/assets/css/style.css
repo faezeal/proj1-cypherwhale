@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url("../fonts/Yekan.eot") format("eot");
+  src: url("../fonts/Yekan.ttf") format("tff");
+  src: url("../fonts/Yekan.woff") format("woff");
+  src: url("../fonts/Yekan.woff2") format("woff2");
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  direction: rtl;
+  font-family: yekan;
+  overflow-x: hidden;
+}
+
+/* <========================== تنظیمات پیش فرض سایت ===================> */

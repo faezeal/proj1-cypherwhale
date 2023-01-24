@@ -1,0 +1,91 @@
+
+
+/* <====================  FreeEducationHead Style Start  ====================>*/
+
+.headImgFreeEdu{
+    height: 32vh;
+    background-image: url("../../../../public/assets/img/5555.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;}
+
+.overlayFreeEdu{
+    background-color:rgba(76, 0, 130 , .5) ;}
+
+.titleFreeEdu{
+    text-shadow: 1px 1px 10px white;
+    font-size: 50px !important;}
+
+/* <====================  FreeEducationHead Style End  ====================>*/
+
+/* <=====================  FreeEducationContent Style Start  ===============> */
+
+.textCard{
+    text-align: justify;}
+
+.btnCard:hover{
+    background-color:#ffA300;}
+
+/* <=====================  FreeEducationContent Style End  ===============> */
+
+
+/* <==================  FreeEducationBanner Style Start  =========================> */
+
+.bannerFreeEdu{
+    height: 30vh;
+    background-image: url("../../../../public/assets/img/1111.jpg");
+    background-size: cover;
+    background-attachment: fixed;}
+
+.bg-button{
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    box-shadow: inset 0 0 10px #ffA300;
+    transition: all 1s ease-in-out;
+    animation: btn 4s  2s forwards;}
+
+@keyframes btn {
+    0%{
+        transform: translateY(150%);
+        opacity: 0;}
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;}  
+}
+
+.bg-button:hover{
+    box-shadow:  1px 1px 10px #ffA300 !important;}
+
+.overlayeCover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);}
+
+.bannerTitle{
+    top: 10%;
+    text-shadow: 0px 0px 10px #fff;}
+
+.bannerText{
+    top: 35%;}
+
+@media screen and (max-width : 676px) {
+    .bannerTitle{
+        font-size: 20px !important;
+    }
+
+    .bannerText{
+        font-size: 16px !important;
+    }
+
+    .bg-button{
+        padding: 10px !important;
+    }
+}
+
+/* <==================  FreeEducationBanner Style End  =========================> */
+

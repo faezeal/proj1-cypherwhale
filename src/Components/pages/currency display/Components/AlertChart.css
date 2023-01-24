@@ -1,0 +1,17 @@
+.alertChartFormp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.alertChartp{
+    display: flex;
+    flex-direction: row;
+    background-color: #d6d7d7 !important;
+    width: 100%;
+    justify-content: space-around;
+}
+.alertChart_subGroupp{
+    display: flex;
+    flex-direction: column;
+}

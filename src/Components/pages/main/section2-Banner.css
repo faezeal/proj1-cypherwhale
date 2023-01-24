@@ -1,0 +1,58 @@
+
+
+
+
+.section2 {
+    height: 80vh;
+    background-color: rgba(42, 6, 93, 0.95);
+  }
+  
+  .section2 .container {
+    background-color: white;
+    height: 100%;
+    margin-top: -10%;
+    margin-bottom: 4%;
+    /* border-radius: 15px; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 1px 1px 30px #ffa300;
+    z-index: 2;
+  }
+  
+  .section2 .container .list .listItem {
+    color: #4c0082;
+    margin-bottom: 5%;
+  }
+  
+  .section2 .container .list .listItem .icon {
+    font-size: 25px;
+  }
+  
+  .section2 .container .imgDiv {
+    width: 80%;
+    height: 45vh;
+    /* background-color: lime; */
+    background-image: url(../../../../public/assets/img/333.gif);
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .section2 .container .btnDiv .btn {
+    width: 35%;
+    height: 50px;
+    border: 3px solid rgba(247, 101, 4, 0.5);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .section2 {
+      height: 120vh;
+    }
+    .section2 .container {
+      margin-left: 3%;
+      margin-right: 5%;
+    }
+    .section2 .container .imgDiv {
+      background-position: center center;
+      height: 30vh;
+    }
+  }

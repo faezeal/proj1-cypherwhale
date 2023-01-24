@@ -1,0 +1,75 @@
+
+/* <====================  AboutUsHead Style Start  ==========================> */
+
+
+.headImgAbout{
+    height: 40vh;
+    background-image: url("../../../../public/assets/img/bg10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;}
+
+.overlayAbout{
+    background-color:rgba(76, 0, 130 , .5) ;}
+
+.title{
+    text-shadow: 1px 1px 10px white;}
+
+/* <====================  AboutUsHead Style End  ==========================> */
+
+/* <=====================  AboutUsContent Style Start ======================> */
+
+.paragraf{
+    text-align: justify;}
+
+/* <=====================  AboutUsContent Style End ======================> */
+
+/* <=====================  AboutUsServices Style Start  =====================>  */
+
+
+.titleCostumer{
+    font-weight: bold;}
+
+.box1{
+    background-color: red;
+    box-shadow: 0px 0px 10px rgba(76, 0, 130 , .5) ;}
+
+.box2{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px rgba(76, 0, 130 , .5) ;}
+
+.box3{
+    background-color: green;
+    box-shadow: 0px 0px 10px rgba(76, 0, 130 , .5) ;}
+
+/* <=====================  AboutUsServices Style End  =====================>  */
+
+/* <======================  AboutUsFooter Style Start  =====================> */
+
+
+.icons{
+    font-size: 50px !important;}
+
+.mainTitle{
+    font-size: 30px !important;
+    font-weight: 700;}
+
+.boxContainer{
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 10px;}
+
+.boxImg{
+    background: url("../../../../public/assets/img/1111.jpg");
+    background-size: cover;
+    height: 40vh;
+    border-radius: 10px;}
+
+.overlayImg{
+    background-color:rgba(76, 0, 130 , .5);
+    border-radius: 10px;}
+
+/* <======================  AboutUsFooter Style End  =====================> */
+
+
+

@@ -1,0 +1,28 @@
+
+.error{
+    color: red !important;}
+
+.form-content{
+    margin-right: 30%;
+    margin-top: 30%;}
+
+.input{
+    margin: 10px 0;
+    padding: 7px 7px;}
+
+.register-title{
+    margin-top: 10%;
+    margin-right: 7%;}
+
+.link-login{
+    margin-top: 2%;
+    margin-right: 30%;}
+
+.login-link{
+    margin-right: 63%;
+    color:#4C0082;}
+
+.login-link:hover{
+    color: red;}
+
+

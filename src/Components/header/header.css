@@ -1,0 +1,168 @@
+
+
+.navbar .items {
+    color: white !important;
+  }
+  .menu {
+    z-index: 1000;
+  }
+  
+  .navbar .items:hover {
+    color: #ffa300 !important;
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .menu {
+      font-size: 13px;
+    }
+  }
+  
+  .navbar .iconHamberger {
+    color: white !important;
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+  
+    /* z-index: 1001 !important; */
+    /* display: block !important; */
+  
+  }
+  
+  .navbar .iconHamberger:hover {
+    color: #ffa300 !important;
+    border: 1px solid #ffa300;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .iconHamberger {
+      display: block !important;
+    }
+  }
+  
+  .navbar .subMenu {
+    z-index: 2000 !important;
+    background-color: rgba(76, 0, 130, 0.7);
+    border: 1px solid rgba(255, 163, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: translateY(100%);
+    transition: all 1s ease-in-out;
+    transition-delay: .3s;
+    /* opacity: 0; */
+    display: none;
+    margin-bottom: -100px;
+  /* margin-right: 50px !important; */
+    /* display: none; */
+  }
+  
+  .navbar .subMenu .subMenuItem:hover {
+    color: #ffa300 !important;
+    text-shadow: 1px 1px 5px white;
+     /* opacity: 1; */
+   /* transform: translateY(0); */
+    
+  }
+  .navbar .Vip ul {
+    list-style: none;
+  }
+  .navbar .Vip:hover .subMenu {
+    /* opacity: 1; */
+    display: block;
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out; 
+    transition-delay: .3s;
+  }
+  
+  /* .navbar .Vip:hover .subMenu {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+  } */
+  
+  /* ======================================================== End menu =========================================================== */
+  
+  .toggelMenu {
+    height: 50vh;
+    width: 200px !important;
+    z-index: 1000;
+    top: 7%;
+    /* transition: all 10s ease-in-out !important; */
+    border-bottom-right-radius: 5px;
+    /* transform: translateX(-200px) */
+  }
+  
+  /* 
+  .toggelMenu.toggelMenuHidden {
+    transform: translateX(0);
+  } */
+  
+  @media screen and (min-width: 992px) {
+    .toggelMenu {
+      display: none;
+    }
+  }
+  
+  .toggelMenu .ul {
+    list-style: none !important;
+  }
+  
+  .toggelMenu .ul .li {
+    cursor: pointer;
+  }
+  .toggelMenu .ul .li a {
+    text-decoration: none;
+    color: white;
+  }
+  .toggelMenu .ul .li a:hover {
+    color: #ffa300;
+    text-shadow: 1px 1px 10px white;
+  }
+  
+  .toggelMenuHidden {
+    display: none;
+  }
+  
+  /* .test11 {
+    z-index: 1001;
+  } */
+  
+  .subMenuToggel {
+    padding-top: 5%;
+    padding-right: 7%;
+    direction: ltr;
+    background-color: rgba(76, 0, 130, 0.8);
+    z-index: 2 !important;
+    width: 195px;
+    height: 80px;
+    margin-right: -100%;
+    margin-top: -12%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #ffa300;
+    transform: translateX(100%);
+    transition: all 0.7s 0.7s ease-in-out;
+    /* opacity: 0; */
+    display: none;
+    list-style: none;
+  }
+  
+  .subMenuToggel .subMenuItemtoggel:hover {
+    color: #ffa300 !important;
+    text-shadow: 1px 1px 5px white;
+  }
+  
+  .Vip:hover .subMenuToggel {
+    /* opacity: 1; */
+    display: block;
+    transform: translateY(0%);
+  
+  }
+  

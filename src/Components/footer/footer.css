@@ -1,0 +1,30 @@
+
+
+.containerFooter {
+    /* width: 100%; */
+  }
+  
+  .containerFooter .titleFooter {
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+  
+  .containerFooter .clmnFooter {
+    text-align: center;
+  }
+  .containerFooter .clmnFooter .itemFooter .navlinkfooter:hover {
+    color: #ffa300 !important;
+  }
+  
+  .iconsFooter {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .iconsFooter .iconFooter {
+    color: white;
+  }
+  .iconsFooter .iconFooter:hover {
+    color: #ffa300;
+  }

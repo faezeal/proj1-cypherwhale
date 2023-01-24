@@ -1,0 +1,70 @@
+.mainCard{ background-color: "#fff";margin-bottom: 20px };
+      /* .avatar:
+        data.category === "forex"
+          ? { background-color: "green"; margin-left:3px }
+          : data.category === "coin"
+          ? { background-color: "gold"; margin-left: 3px }
+          : data.category === "stock"
+          ? { background-color: "purple"; margin-left: 3px}
+          : data.category === "nft"
+          ? { background-color: "blue"; margin-left: 3px }
+          : { background-color: "orange"; margin-left: 3px }, */
+     .avatar{
+        background-color: aqua;
+     }
+          .action{
+        color: "red",
+      }
+      .title{
+        color: "#001759";
+        font-size: "10px"
+      }
+      .subtitle{
+        color: "rgba(1,3,3,0.5)";
+        font-size: 12px;
+        font-weight: 100
+      }
+     .cardActions{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .ExpandMore{
+        color: #27ced9;
+        width: "10%";
+        /* transform: !expanded ? "rotate(0deg)" : "rotate(180deg)", */
+        animation: "Test_1 2s forward",
+      }
+      .explanation{ margin-top:10px; text-align: justify ;color:white}
+      .videopPlayer { margin-top: -70px }
+      .ListItemText{
+        font-size: 12px;
+        color: rgba(1,3,3,0.5);
+        font-weight: 400;
+        margin-right:0px
+      }
+   .accordion-Header button{
+    background-color: transparent;
+    height: 5px;
+    color: beige;
+
+   }
+   .accordion-Header .accordion-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+   }
+
+   .test svg{
+    background-color: #27ced9;
+   }
+      .ListItemIcon{ color: #27ced9; margin-right: -20px }
+      /* .ListItemLevel:
+        data.level === "1"
+          ? { color: "green" }
+          : data.level === "2"
+          ? { color: "orange" }
+          : { color: "red" }, */
+
+    

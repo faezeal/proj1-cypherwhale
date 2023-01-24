@@ -1,0 +1,28 @@
+
+
+
+.Cards{
+    padding: 10px;
+    /* background-color:#202329; */
+    background-color: transparent;
+    width:100%;
+    margin-right:-3px;
+    margin-top: 5%;
+    overflow-x: hidden;
+  }
+
+ .pagination{
+    justify-content: center;
+    direction: ltr;}
+
+  .pagination li{
+    margin-left: 10px;
+    width: 30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+  .pagination li.active{
+    background-color: orange;
+    border-radius: 50%;} 

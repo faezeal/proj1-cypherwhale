@@ -1,0 +1,71 @@
+
+
+/* <===================  ContactUsHead Style Start  ====================> */
+
+.headImg{
+    height: 40vh;
+    background-image: url("../../../../public/assets/img/4444.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;}
+
+.overlay{
+    background-color:rgba(76, 0, 130 , .5) ;}
+
+/* <===================  ContactUsHead Style End  ====================> */
+
+
+
+/* <====================== ContactUsContent Style Start  =====================>  */
+
+.social:hover{
+    color:#ffA300 !important;}
+
+.input{
+    width: 48%;
+    border:1px solid rgba(76, 0, 130 , .5);
+    outline-color: rgb(76, 0, 130 );
+    border-radius: 4px;}
+
+.secondInput{
+    margin-top: 2%;}
+
+.textarea{
+    width: 100%;
+    height: 20vh;
+    resize: none;
+    border:1px solid rgba(76, 0, 130 , .5);
+    outline-color: rgb(76, 0, 130 );
+    border-radius: 4px;}
+
+@media screen and (max-width:768px) {
+    .containerInput{
+        flex-direction: column;}
+
+    .input{
+        width: 100%;}
+}
+
+
+.boxRight{
+    background-color:rgba(76, 0, 130 , .7);
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 0 10px rgba(76, 0, 130 , .7);}
+
+.icons{
+    font-size: 30px !important;
+    color: #ffA300 !important;}
+
+.social{
+    font-size: 25px !important;}
+
+.sendMessage:hover{
+    background-color:white;
+    border: 1px solid rgb(76, 0, 130 );
+    color:rgb(76, 0, 130 );}
+
+.contentBtn{
+    transition: all 1s ease-in-out;}
+
+/* <====================== ContactUsContent Style End  =====================>  */
+

@@ -1,0 +1,580 @@
+.main {
+  overflow-x: hidden;
+}
+
+/* .section1 {
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url("../../../../public/assets/img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
+}
+
+.section1 .cover {
+  background-color: rgba(76, 0, 130, 0.5);
+  height: 100vh;
+}
+
+.section1 .title {
+  margin-bottom: 15%;
+}
+@media screen and (max-width: 992px) {
+  .section1 {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section1 .title {
+    font-size: 20px;
+    margin-bottom: 25%;
+  }
+
+  .section1 .containerPrice {
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    margin-top: 300px;
+  }
+  .section1 .containerPrice .priceItem {
+    width: 60% !important;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+.searchBox {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.containerPrice {
+  background-color: transparent;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  position: absolute;
+}
+
+.section1 .containerPrice .priceItem {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  text-shadow: 2px 2px 10px #4c0082;
+}
+
+.section1 .containerPrice .priceItem:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 2px 2px 10px white;
+}
+
+.section1 .divInput {
+  background-color: lime;
+  padding: 10px;
+  width: 400px;
+  border-radius: 25px;
+  height: 50px;
+}
+
+.section1 .divInput .searchIcon {
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.section1 .divInput .searchIcon:hover {
+  font-size: 20px;
+  text-shadow: 2px 2px 10px black;
+} */
+
+/* ======================================================== End Section1 =========================================================== */
+/* 
+ .section2 {
+  height: 80vh;
+  background-color: rgba(42, 6, 93, 0.95);
+}
+
+.section2 .container {
+  background-color: white;
+  height: 100%;
+  margin-top: -10%;
+  margin-bottom: 4%;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 1px 1px 30px #ffa300;
+  z-index: 2;
+}
+
+.section2 .container .list .listItem {
+  color: #4c0082;
+  margin-bottom: 5%;
+}
+
+.section2 .container .list .listItem .icon {
+  font-size: 25px;
+}
+
+.section2 .container .imgDiv {
+  width: 80%;
+  height: 45vh;
+
+  background-image: url(../../../../public/assets/img/333.gif);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.section2 .container .btnDiv .btn {
+  width: 35%;
+  height: 50px;
+  border: 3px solid rgba(247, 101, 4, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .section2 {
+    height: 120vh;
+  }
+  .section2 .container {
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+  .section2 .container .imgDiv {
+    background-position: center center;
+    height: 30vh;
+  }
+}  */
+
+/* ======================================================== End Section2 =========================================================== */
+
+/* .carouselDiv {
+  height: 40vh;
+}
+
+.carouselDiv .carouselItem .img {
+  width: 85%;
+  height: 40vh;
+  background-image: url(../../../../public/assets/img/bit.jpg);
+  margin: 0 auto;
+  box-shadow: 5px 5px 50px #4c0082;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carouselDiv .carouselItem .carouselCaption p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  .carouselDiv {
+    height: 57vh;
+  }
+  .carouselDiv .carouselItem .img {
+    height: 55vh;
+    background-position: center center;
+  }
+} */
+
+/* ======================================================== End Section3 =========================================================== */
+/* 
+.bg-img {
+  background-image: url(../../../../public/assets/img/bit.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-img h4 {
+  text-shadow: 4px 4px 8px white;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-img h4 {
+    font-size: 21px !important;
+  }
+}
+
+
+.custom-btn {
+  width: 200px;
+  height: 100px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-12 {
+
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 200px;
+  height: 100px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+ 
+  background: rgb(255, 163, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 163, 0, 1) 0%,
+    rgba(255, 163, 0, 1) 100%
+  );
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+ */
+
+
+/* ======================================================== End Section4 =========================================================== */
+
+/* .box {
+  padding: 2% 4% 1% 4%;
+  text-align: justify;
+}
+.box:hover {
+  border: 3px solid #ffa300;
+  box-shadow: inset 1px 1px 10px #ffa300;
+} */
+
+/* ======================================================== End Section5 =========================================================== */
+
+/* .container {
+}
+
+.container .text {
+  padding: 5%;
+  border: 2px solid #4c0082;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 2px 2px 10px #4c0082;
+  text-align: justify;
+}
+
+.container .img {
+  background-image: url(../../../../public/assets/img/trade.jpg);
+  background-position: center;
+  height: 59vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 2px solid #4c0082;
+  box-shadow: 2px 2px 10px #4c0082;
+}
+
+@media screen and (max-width: 768px) {
+  .container .text {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .container .img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+.calcDiv {
+  height: 100%;
+} */
+
+/* ======================================================== End Section6 =========================================================== */
+
+/* .title {
+  text-shadow: 3px 3px 5px black;
+  font-size: 40px;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 2%;
+}
+
+.imgCard {
+  background-image: url(../../../../public/assets/img/coinsss.jpg);
+  width: 100%;
+  height: 20vh;
+  background-position: center;
+}
+
+.imgCard2 {
+  background-image: url(../../../../public/assets/img/coinsss2.jpg);
+  width: 100%;
+  height: 20vh;
+  background-position: center;
+}
+
+.imgCard3 {
+  background-image: url(../../../../public/assets/img/coinsss3.jpg);
+  width: 100%;
+  height: 20vh;
+  background-position: center;
+}
+
+.textCard {
+  text-align: justify;
+} */
+
+/* ======================================================== End Section7 =========================================================== */
+
+/* .containerFooter {
+
+}
+
+.containerFooter .titleFooter {
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.containerFooter .clmnFooter {
+  text-align: center;
+}
+.containerFooter .clmnFooter .itemFooter .navlinkfooter:hover {
+  color: #ffa300 !important;
+}
+
+.iconsFooter {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconsFooter .iconFooter {
+  color: white;
+}
+.iconsFooter .iconFooter:hover {
+  color: #ffa300;
+} */
+
+/* ======================================================== End Footer =========================================================== */
+/* .navbar .items {
+  color: white !important;
+}
+.menu {
+  z-index: 1000;
+}
+
+.navbar .items:hover {
+  color: #ffa300 !important;
+  text-shadow: 2px 2px 5px white;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    font-size: 13px;
+  }
+}
+
+.navbar .iconHamberger {
+  color: white !important;
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+
+
+
+}
+
+.navbar .iconHamberger:hover {
+  color: #ffa300 !important;
+  border: 1px solid #ffa300;
+}
+
+@media screen and (max-width: 992px) {
+  .iconHamberger {
+    display: block !important;
+  }
+}
+
+.navbar .subMenu {
+  z-index: 2000 !important;
+  background-color: rgba(76, 0, 130, 0.7);
+  border: 1px solid rgba(255, 163, 0, 0.5);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: translateY(100%);
+  transition: all 1s ease-in-out;
+  transition-delay: .3s;
+
+  display: none;
+  margin-bottom: -100px;
+
+}
+
+.navbar .subMenu .subMenuItem:hover {
+  color: #ffa300 !important;
+  text-shadow: 1px 1px 5px white;
+
+  
+}
+.navbar .Vip ul {
+  list-style: none;
+}
+.navbar .Vip:hover .subMenu {
+
+  display: block;
+  transform: translateY(0);
+  transition: all 0.5s ease-in-out; 
+  transition-delay: .3s;
+} */
+
+
+/* ======================================================== End menu =========================================================== */
+/* 
+.toggelMenu {
+  height: 50vh;
+  width: 200px !important;
+  z-index: 1000;
+  top: 7%;
+
+  border-bottom-right-radius: 5px;
+
+}
+
+
+@media screen and (min-width: 992px) {
+  .toggelMenu {
+    display: none;
+  }
+}
+
+.toggelMenu .ul {
+  list-style: none !important;
+}
+
+.toggelMenu .ul .li {
+  cursor: pointer;
+}
+.toggelMenu .ul .li a {
+  text-decoration: none;
+  color: white;
+}
+.toggelMenu .ul .li a:hover {
+  color: #ffa300;
+  text-shadow: 1px 1px 10px white;
+}
+
+.toggelMenuHidden {
+  display: none;
+}
+
+
+.subMenuToggel {
+  padding-top: 5%;
+  padding-right: 7%;
+  direction: ltr;
+  background-color: rgba(76, 0, 130, 0.8);
+  z-index: 2 !important;
+  width: 195px;
+  height: 80px;
+  margin-right: -100%;
+  margin-top: -12%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #ffa300;
+  transform: translateX(100%);
+  transition: all 0.7s 0.7s ease-in-out;
+
+  display: none;
+  list-style: none;
+}
+
+.subMenuToggel .subMenuItemtoggel:hover {
+  color: #ffa300 !important;
+  text-shadow: 1px 1px 5px white;
+}
+
+.Vip:hover .subMenuToggel {
+
+  display: block;
+  transform: translateY(0%);
+
+} */
+
+/* ======================================================== End toggelMenu =========================================================== */

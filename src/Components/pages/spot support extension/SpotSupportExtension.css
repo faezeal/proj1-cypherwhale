@@ -1,0 +1,7 @@
+.comingSoon{
+    height: 100vh;
+    background: url(../../../../public/assets/img/comingsoon2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 700;}
